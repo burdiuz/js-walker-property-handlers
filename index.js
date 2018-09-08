@@ -58,4 +58,4 @@ const createHandlers = (getData = defaultDataGetter) => Object.assign({}, create
 
 exports.createROHandlers = createROHandlers;
 exports.createHandlers = createHandlers;
-//# sourceMappingURL=walker-property-handlers.js.map
+//# sourceMappingURL=index.js.map
