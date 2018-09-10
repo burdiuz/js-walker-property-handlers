@@ -2,14 +2,15 @@
   "name": "@actualwave/walker-property-handlers",
   "description": "Create simple object property handlers to access node values in TreeWalker tree",
   "version": "0.0.1",
-  "main": "dist/walker-property-handlers.js",
+  "main": "index.js",
   "keywords": [
     "js",
     "javascript",
     "proxy",
     "tree",
-    "E4X",
-    "treewalker"
+    "walker",
+    "treewalker",
+    "E4X"
   ],
   "homepage": "https://github.com/burdiuz/js-walker-property-handlers",
   "bugs": {
@@ -24,6 +25,9 @@
   },
   "dependencies": {
     "@actualwave/has-own": "0.0.1"
+  },
+  "peerDependencies": {
+    "@actualwave/tree-walker": "^1.0.6"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -103,7 +107,6 @@
     "build": "rollup --config",
     "build:watch": "rollup --config --watch \"./source\"",
     "lint": "./node_modules/.bin/eslint \"source/**/*.js\"",
-    "flow": "./node_modules/.bin/flow",
     "test": "jest --colors",
     "test:watch": "jest --colors --watch",
     "lint-staged": "lint-staged",
