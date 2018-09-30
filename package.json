@@ -1,7 +1,7 @@
 {
   "name": "@actualwave/walker-property-handlers",
   "description": "Create simple object property handlers to access node values in TreeWalker tree",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "keywords": [
     "js",
